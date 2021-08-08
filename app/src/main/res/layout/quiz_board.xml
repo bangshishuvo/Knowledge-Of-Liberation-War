@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_horizontal"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_margin="10dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center">
+
+		<TextView
+			android:id="@+id/ws"
+			android:layout_marginStart="0dp"
+			android:layout_width="80dp"
+			android:gravity="center"
+			android:text="25"
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:textColor="#CA291F"
+			android:layout_height="45dp"
+			android:background="@drawable/tvshplr2"/>
+
+		<TextView
+			android:id="@+id/qn"
+			android:layout_marginStart="25dp"
+			android:layout_width="70dp"
+			android:gravity="center"
+			android:text="25"
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:textColor="#2145B9"
+			android:layout_height="70dp"
+			android:background="@drawable/tvshpqn"/>
+
+		<TextView
+			android:id="@+id/rs"
+			android:layout_marginStart="25dp"
+			android:layout_width="80dp"
+			android:gravity="center"
+			android:text="25"
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:textColor="#1FA60D"
+			android:layout_height="45dp"
+			android:background="@drawable/tvshplr"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_margin="10dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:background="@drawable/btn1">
+
+		<TextView
+			android:id="@+id/qv"
+			android:layout_margin="10dp"
+			android:layout_width="match_parent"
+			android:gravity="center_vertical"
+			android:text="Bangladesh Amar desh"
+			android:textSize="16sp"
+			android:textStyle="normal"
+			android:textColor="#000000"
+			android:layout_height="match_parent"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center_horizontal"
+		android:orientation="vertical">
+
+		<Button
+			android:id="@+id/optbtna"
+			android:layout_marginTop="5dp"
+			android:layout_marginStart="10dp"
+			android:layout_marginEnd="10dp"
+			android:layout_width="match_parent"
+			android:layout_height="45dp"
+			android:text="OPTION - A"
+			android:textSize="16sp"
+			android:onClick="OPTA"/>
+
+		<Button
+			android:id="@+id/optbtna"
+			android:layout_marginTop="5dp"
+			android:layout_marginStart="10dp"
+			android:layout_marginEnd="10dp"
+			android:layout_width="match_parent"
+			android:layout_height="45dp"
+			android:textSize="16sp"
+			android:text="OPTION - B"
+			android:onClick="OPTB"/>
+
+		<Button
+			android:id="@+id/optbtna"
+			android:layout_marginTop="5dp"
+			android:layout_marginStart="10dp"
+			android:layout_marginEnd="10dp"
+			android:layout_width="match_parent"
+			android:layout_height="45dp"
+			android:text="OPTION - C"
+			android:textSize="16sp"
+			android:onClick="OPTC"/>
+
+		<Button
+			android:id="@+id/optbtna"
+			android:layout_marginTop="5dp"
+			android:layout_marginStart="10dp"
+			android:layout_marginEnd="10dp"
+			android:layout_width="match_parent"
+			android:layout_height="45dp"
+			android:text="OPTION - D"
+			android:textSize="16sp"
+			android:onClick="OPTD"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
